@@ -2,10 +2,10 @@
 
 // Test routes
 import { Router } from 'express';
-import { userList,productList,offerList } from '../../controllers/admin/list';
+import { userList, productList, offerList } from '../../controllers/admin/list';
 
 let router = Router();
-router.get('/user', userList);
-router.get('/product', productList);
-router.get('/offer', offerList);
+router.get('/api/List/getUser', userList);
+router.get('/api/List/getProduct', productList);
+router.get('/api/List/getOffer', offerList);
 export = router;
