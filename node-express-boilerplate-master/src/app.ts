@@ -9,7 +9,7 @@ import * as cookieParser from 'cookie-parser';
 import * as bodyParser from 'body-parser';
 
 // Modular Route definitions
-import * as exampleRoute from './routes/example';
+import * as exampleRoute from './routes/admin/list';
 import mongoose = require('mongoose'); //import mongoose
 
 // Error handler service
